@@ -9,5 +9,9 @@
   "license": "ISC",
   "engines": {
     "node": ">=16.x"
+  },
+  "devDependencies": {
+    "eslint-config-typescript-react-pro": "^1.2.1",
+    "typescript": "^4.7.4"
   }
 }
