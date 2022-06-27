@@ -15,4 +15,3 @@ const object = {
 const ban = { ...initialState, object: { ...object } }
 
 console.log(ban)
-
