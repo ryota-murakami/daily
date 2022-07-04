@@ -1,7 +1,7 @@
-const cart = ['🍎', '🍌', '🍍'];
+export const cart = ['🍎', '🍌', '🍍']
 
 // first element
-cart.at(0); // '🍎'
+cart.at(0) // '🍎'
 
 // last element
-cart.at(-1); // '🍍'
+cart.at(-1) // '🍍'
