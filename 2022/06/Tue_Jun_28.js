@@ -1,4 +1,4 @@
-var cart = ['🍎', '🍌', '🍍'];
+export const cart = ['🍎', '🍌', '🍍'];
 // first element
 cart.at(0); // '🍎'
 // last element
