@@ -99,7 +99,7 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.3.12.tgz#920447fdd78d76b19de0438b7f60df3c4a80bf1c"
   integrity sha512-WwA1MW0++RfXmCr12xeYOOC5baSC9mSb0ZqCquFzKhcoF4TvHu5MKOuXsncgZcpVFhB1pXd5hZmM0ryAoCp12A==
 
-"@typescript-eslint/eslint-plugin@^5.40.1", "@typescript-eslint/eslint-plugin@^5.42.0":
+"@typescript-eslint/eslint-plugin@^5.42.0":
   version "5.42.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.42.0.tgz#36a8c0c379870127059889a9cc7e05c260d2aaa5"
   integrity sha512-5TJh2AgL6+wpL8H/GTSjNb4WrjKoR2rqvFxR/DDTqYNk6uXn8BJMEcncLSpMbf/XV1aS0jAjYwn98uvVCiAywQ==
@@ -114,7 +114,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@^5.40.1", "@typescript-eslint/parser@^5.42.0":
+"@typescript-eslint/parser@^5.42.0":
   version "5.42.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.42.0.tgz#be0ffbe279e1320e3d15e2ef0ad19262f59e9240"
   integrity sha512-Ixh9qrOTDRctFg3yIwrLkgf33AHyEIn6lhyf5cCfwwiGtkWhNpVKlEZApi3inGQR/barWnY7qY8FbGKBO7p3JA==
@@ -484,22 +484,10 @@ eslint-config-prettier@^8.5.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz#5a81680ec934beca02c7b1a61cf8ca34b66feab1"
   integrity sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==
 
-eslint-config-typescript-react-pro@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-typescript-react-pro/-/eslint-config-typescript-react-pro-1.8.0.tgz#1895db3053fd99bc8fa29580facf2146dda5fcc1"
-  integrity sha512-4i9ppmpZq4G1RMjoTijoCaxvG2GC0IH+BSG52Jwpw7HO1Iu8SX47X1l5NLr5ocdvpx7W3UglWq/faJiirA7D7A==
-  dependencies:
-    "@typescript-eslint/eslint-plugin" "^5.40.1"
-    "@typescript-eslint/parser" "^5.40.1"
-    eslint "^8.26.0"
-    eslint-config-prettier "^8.5.0"
-    eslint-import-resolver-typescript "^2.7.1"
-    eslint-plugin-import "^2.26.0"
-    eslint-plugin-jsx-a11y "^6.6.1"
-    eslint-plugin-prettier "^4.2.1"
-    eslint-plugin-react-hooks "^4.6.0"
-    eslint-plugin-sort-keys-fix "^1.1.2"
-    prettier "^2.7.1"
+eslint-config-typescript-react-pro@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-typescript-react-pro/-/eslint-config-typescript-react-pro-1.9.1.tgz#4771809e2e9555077428f5559ea7b361360763ab"
+  integrity sha512-6l4BHJF6FoIqyP+rueZFYLQwGoLQxmAZZd37NZWapf9AzctGdZmwrRSXYRtEIKavIQU4VQQ4vtpX2xDOfPjypw==
 
 eslint-import-resolver-node@^0.3.6:
   version "0.3.6"
@@ -508,17 +496,6 @@ eslint-import-resolver-node@^0.3.6:
   dependencies:
     debug "^3.2.7"
     resolve "^1.20.0"
-
-eslint-import-resolver-typescript@^2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.7.1.tgz#a90a4a1c80da8d632df25994c4c5fdcdd02b8751"
-  integrity sha512-00UbgGwV8bSgUv34igBDbTOtKhqoRMy9bFjNehT40bXg6585PNIct8HhXZ0SybqB9rWtXj9crcku8ndDn/gIqQ==
-  dependencies:
-    debug "^4.3.4"
-    glob "^7.2.0"
-    is-glob "^4.0.3"
-    resolve "^1.22.0"
-    tsconfig-paths "^3.14.1"
 
 eslint-import-resolver-typescript@^3.5.2:
   version "3.5.2"
@@ -864,7 +841,7 @@ glob-parent@^6.0.2:
   dependencies:
     is-glob "^4.0.3"
 
-glob@^7.1.3, glob@^7.2.0:
+glob@^7.1.3:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.3.tgz#b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b"
   integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
