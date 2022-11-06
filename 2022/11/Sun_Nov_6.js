@@ -1,4 +1,9 @@
 // @TODO gen random string
-const Alphabet = 'abcdefghijklmnopqrstuvwcyz'
+function getRandomAlphabet() {
+  const Alphabet = 'abcdefghijklmnopqrstuvwcyz'
+  const num = Math.floor(Math.random() * 26)
 
-console.log(Alphabet.length)
+  return Alphabet.at(num)
+}
+
+console.log(getRandomAlphabet())
