@@ -25,6 +25,7 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "chalk": "^5.0.1"
+    "chalk": "^5.0.1",
+    "faker": "5.5.3"
   }
 }
