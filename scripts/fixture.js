@@ -1,7 +1,7 @@
-var fs = require('fs')
-var os = require('os')
+import fs from 'fs'
+import os from 'os'
 
-var faker = require('faker')
+import faker from 'faker'
 
 function writeJson(fileName, object) {
   if (Array.isArray(object)) {
@@ -23,7 +23,7 @@ function writeJson(fileName, object) {
 var userList = []
 
 // @TODO take from parameter
-for (i = 0; i <= 1; i++) {
+for (let i = 0; i <= 1; i++) {
   userList.push({
     card: faker.helpers.createCard(),
     email: faker.internet.email(),
