@@ -2,38 +2,32 @@
 
 import meow from 'meow'
 
-function foo(a, b) {
-  console.log({ a, b })
-}
-
 const cli = meow(
   `
 	Usage
-	  $ foo <input>
+	  $ gen
 
 	Options
-	  --rainbow, -r  Include a rainbow
+	  --help
 
 	Examples
-	  $ foo unicorns --rainbow
-	  🌈 unicorns 🌈
+	  $ gen
+	  generate js file whix named like 2022_Fri_Nov_11.js
 `,
   {
-    flags: {
-      rainbow: {
-        alias: 'r',
-        type: 'boolean',
-      },
-    },
+    flags: {},
     importMeta: import.meta,
   }
 )
-/*
-{
-	input: ['unicorns'],
-	flags: {rainbow: true},
-	...
-}
-*/
 
-foo(cli.input[0], cli.flags)
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function genTodayFile(input, flags) {
+  // @TODO set project root path in variable
+  // @TODO get Local Time
+  // @TODO format datetime style
+  // @TODO create year(2022) directory if it is not exist
+  // @TODO create month(11) directory if it is not exist
+  // @TODO write file that named 2022_Fri_Nov_11.js
+}
+
+genTodayFile(cli.input, cli.flags)
