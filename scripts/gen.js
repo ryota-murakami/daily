@@ -4,15 +4,15 @@ import meow from 'meow'
 
 const cli = meow(
   `
-	Usage
-	  $ gen
+  Usage
+    $ gen
 
-	Options
-	  --help
+  Options
+    --help
 
-	Examples
-	  $ gen
-	  generate js file whix named like 2022_Fri_Nov_11.js
+  Examples
+    $ gen
+    generate js file whix named like 2022_Fri_Nov_11.js
 `,
   {
     flags: {},
