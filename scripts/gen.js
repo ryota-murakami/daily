@@ -15,7 +15,7 @@ const cli = meow(
 
   Examples
     $ gen
-    generate js file whix named like 2022_Fri_Nov_11.js
+    generate js file that named like 2022_Fri_Nov_11.js
 `,
   {
     flags: {},
