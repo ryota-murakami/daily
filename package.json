@@ -4,7 +4,6 @@
     "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "module",
   "author": "Ryota Murakami",
   "license": "ISC",
   "engines": {
@@ -13,8 +12,19 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "faker": "5.5.3",
-    "meow": "^11.0.0"
+    "meow": "9.0.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-ts-prefixer": "^0.0.5",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
   }
 }

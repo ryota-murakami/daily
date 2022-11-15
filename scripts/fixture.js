@@ -1,7 +1,5 @@
-import fs from 'fs'
-import os from 'os'
 
-import faker from 'faker'
+const faker = require('faker')
 
 function writeJson(fileName, object) {
   if (Array.isArray(object)) {
