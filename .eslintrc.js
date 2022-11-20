@@ -2,6 +2,8 @@ module.exports = {
   extends: ['ts-prefixer'],
   globals: {},
   plugins: [],
-  rules: {},
+  rules: {
+    'no-console': 'off',
+  },
   settings: {},
 }
