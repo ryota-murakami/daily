@@ -5,11 +5,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gen": "node scripts/gen.js"
   },
+  "volta": {
+    "node": "18.10.0",
+    "yarn": "1.22.19"
+  },
   "author": "Ryota Murakami",
   "license": "ISC",
-  "engines": {
-    "node": ">=16.x"
-  },
   "dependencies": {
     "chalk": "^5.0.1",
     "faker": "5.5.3",
