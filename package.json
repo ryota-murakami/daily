@@ -1,13 +1,12 @@
 {
-  "name": "box",
+  "name": "daily",
   "scripts": {
     "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "gen": "node scripts/gen.js"
   },
   "volta": {
-    "node": "18.10.0",
-    "yarn": "1.22.19"
+    "node": "20.6.1"
   },
   "author": "Ryota Murakami",
   "license": "ISC",
